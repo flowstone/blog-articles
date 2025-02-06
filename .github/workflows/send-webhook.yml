@@ -1,0 +1,25 @@
+name: Send Webhook on Push
+
+on:
+  push:
+    branches:
+      - main  # 可根据需要修改为实际分支
+
+jobs:
+  send-webhook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send POST request to target repo
+        env:
+          TARGET_REPO_OWNER: flowstone  # 替换为目标仓库所有者
+          TARGET_REPO_NAME: flowstone.github.io    # 替换为目标仓库名称
+        run: |
+          curl -X POST \
+          -H "Accept: application/vnd.github.v3+json" \
+          "https://api.github.com/repos/$TARGET_REPO_OWNER/$TARGET_REPO_NAME/dispatches" \
+          -d '{
+            "event_type": "article_update",
+            "client_payload": {
+              "message": "A new push event occurred in the source repository."
+            }
+          }'
