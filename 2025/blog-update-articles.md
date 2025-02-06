@@ -52,27 +52,40 @@ jobs:
           git config --global user.name "Automation Bot"
           git config --global user.email "bot@flowstone.dev"
 
-       # Check if there are any changes in the articles repository
-      - name: Check if articles repo has changes
+      # Check if content/post already exists and is a submodule
+      - name: Check if submodule exists
+        id: check_submodule
         run: |
-          cd content/post
-          git fetch origin main
-          # Check for any changes in the 'content/post' folder
-          if [[ $(git diff --stat HEAD origin/main) == *"content/post"* ]]; then
-            echo "Changes detected, syncing articles."
-            echo "yes" > ../sync_needed.txt
+          if [ -d "content/post/.git" ]; then
+            echo "Submodule already exists"
+            echo "exists=true" >> $GITHUB_ENV
           else
-            echo "No changes detected in articles repo."
-            echo "no" > ../sync_needed.txt
+            echo "Submodule does not exist"
+            echo "exists=false" >> $GITHUB_ENV
           fi
-      
-      # If there are changes, commit and push them to the blog repo
-      - name: Commit and push articles changes
-        if: success() && steps.check-for-changes.outputs.sync_needed == 'yes'
+
+      # If content/post is not a submodule, add it as a submodule
+      - name: Add submodule if not exists
+        if: env.exists == 'false'
         run: |
-          git rm --cached content/post  # 移除已添加的 content/post 目录
-          git commit -m "Sync articles from new repository"
+          git submodule add https://github.com/flowstone/blog-articles content/post
+          git submodule update --init --recursive
+          git commit -m "Add blog articles repository as a submodule"
           git push origin main
+
+      # Sync articles if there are changes
+      - name: Sync articles
+        if: env.exists == 'true'
+        run: |
+          # 拉取远程子模块更新
+          git submodule update --remote content/post
+          
+          # 检查是否有更改，如果有更改则提交
+          git diff --exit-code content/post || (
+            git add content/post
+            git commit -m "Sync articles from new repository"
+            git push origin main
+          )
 ```
 
 上述代码展示了核心工作流的详细配置，通过精确的定时任务和细致的变更检测，确保文章同步的准确性和高效性。
