@@ -1,0 +1,40 @@
+name: Sync Multi - Branches to Multiple Platforms via SSH
+
+on:
+  push:
+    branches:
+      - '*'  # 监听所有分支的推送事件
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Configure Git user
+        run: |
+          git config --global user.name '流体石头'
+          git config --global user.email 'xueyao.me@gmail.com'
+
+      - name: Add SSH key
+        uses: webfactory/ssh-agent@v0.8.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add remote repositories
+        run: |
+          git remote add gitee git@gitee.com:flowstone/blog-articles.git
+          git remote add gitcode git@gitcode.com:u010868168/blog-articles.git
+          git remote add bitbucket git clone git@bitbucket.org:flowstone/blog-articles.git
+
+      - name: Get current branch
+        id: get_branch
+        run: echo "::set-output name=branch::${GITHUB_REF#refs/heads/}"
+
+      - name: Push to targets
+        run: |
+          git push --force gitee ${{ steps.get_branch.outputs.branch }}
+          git push --force gitcode ${{ steps.get_branch.outputs.branch }}
+          git push --force bitbucket ${{ steps.get_branch.outputs.branch }}
