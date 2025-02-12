@@ -28,7 +28,13 @@ jobs:
           git remote add gitee git@gitee.com:flowstone/blog-articles.git
           git remote add gitcode git@gitcode.com:u010868168/blog-articles.git
           git remote add bitbucket  git@bitbucket.org:flowstone/blog-articles.git
-
+      
+      - name: Add host keys to known_hosts
+        run: |
+          ssh-keyscan -H gitee.com >> ~/.ssh/known_hosts
+          ssh-keyscan -H gitcode.com >> ~/.ssh/known_hosts
+          ssh-keyscan -H bitbucket.org >> ~/.ssh/known_hosts
+          
       - name: Get current branch
         id: get_branch
         run: echo "::set-output name=branch::${GITHUB_REF#refs/heads/}"
