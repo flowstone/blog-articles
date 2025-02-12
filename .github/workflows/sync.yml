@@ -27,7 +27,7 @@ jobs:
         run: |
           git remote add gitee git@gitee.com:flowstone/blog-articles.git
           git remote add gitcode git@gitcode.com:u010868168/blog-articles.git
-          git remote add bitbucket git clone git@bitbucket.org:flowstone/blog-articles.git
+          git remote add bitbucket  git@bitbucket.org:flowstone/blog-articles.git
 
       - name: Get current branch
         id: get_branch
