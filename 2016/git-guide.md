@@ -2,7 +2,7 @@
 title: "Git入门"
 date: 2016-07-18 22:08:00
 draft: false
-categories: "Git"
+categories: ["Git"]
 ---
 
 

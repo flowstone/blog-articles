@@ -2,7 +2,7 @@
 title: "2017年小目标"
 date: 2017-01-01 11:25:32
 draft: false
-categories: "Year"
+categories: ["Year"]
 ---
 
 

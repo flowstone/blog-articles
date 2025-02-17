@@ -2,7 +2,7 @@
 title: "Lombok的使用"
 date: 2019-02-03 12:23:17
 draft: false
-categories: "Tool"
+categories: ["Tool"]
 ---
 
 近期在众多微信公众号中，都看到了许多大牛，写了Lombok的文章，我看了一下，基本上就围绕着如何减少代码来做说明，我来总结一下。

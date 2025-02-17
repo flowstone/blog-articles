@@ -2,7 +2,7 @@
 title: "Java Random入门"
 date: 2017-07-02 11:28:02
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 
 #### 什么是Random？

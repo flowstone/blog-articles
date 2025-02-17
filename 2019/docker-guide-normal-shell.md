@@ -2,7 +2,7 @@
 title: "Docker入门-常用命令"
 date: 2019-08-14 12:29:00
 draft: false
-categories: "Docker"
+categories: ["Docker"]
 ---
 
 ## Docker镜像操作

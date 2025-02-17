@@ -2,7 +2,7 @@
 title: "Docker入门-Dockerfile的使用"
 date: 2019-08-14 12:26:32
 draft: false
-categories: "Docker"
+categories: ["Docker"]
 ---
 
 ## 使用Dockerfile定制镜像

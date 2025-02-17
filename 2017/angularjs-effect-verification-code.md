@@ -2,7 +2,7 @@
 title: "AngularJS动态特效之验证码按钮倒计时"
 date: 2017-11-11 12:08:39
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 ## 功能需求
 

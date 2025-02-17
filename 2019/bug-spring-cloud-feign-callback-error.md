@@ -2,7 +2,7 @@
 title: "Bug集锦-Spring Cloud Feign调用其它接口报错"
 date: 2019-10-27 12:44:13
 draft: false
-categories: "Bug"
+categories: ["Bug"]
 ---
 
 

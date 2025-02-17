@@ -2,7 +2,7 @@
 title: "Ant Design中使用Upload上传组件如何自定义文件列表展示位置"
 date: 2021-02-17 13:07:07
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 
 ## 软件环境

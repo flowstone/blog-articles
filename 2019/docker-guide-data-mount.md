@@ -2,7 +2,7 @@
 title: "Docker入门-数据挂载"
 date: 2019-08-18 12:31:57
 draft: false
-categories: "Docker"
+categories: ["Docker"]
 ---
 ## Docker数据管理
 

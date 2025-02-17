@@ -2,7 +2,7 @@
 title: "关于equals()方法两边变量如何放置"
 date: 2017-07-07 11:29:08
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 
 ##### 两个变量放置位置

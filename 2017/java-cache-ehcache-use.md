@@ -2,7 +2,7 @@
 title: "Ehcache缓存简单使用"
 date: 2017-11-25 12:10:42
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 #### SPRING整合EHCACHE
 ##### 1.引入坐标

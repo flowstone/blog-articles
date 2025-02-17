@@ -2,7 +2,7 @@
 title: "JS特效-轮播图"
 date: 2016-09-17 22:17:35
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 
 ## 效果如下

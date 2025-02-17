@@ -2,7 +2,7 @@
 title: "CPU缓存和内存屏障"
 date: 2018-09-07 12:13:29
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 
 ## CPU性能优化手段-缓存

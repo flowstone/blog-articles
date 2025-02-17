@@ -2,7 +2,7 @@
 title: "Java内存缓存-通过Map定制简单缓存"
 date: 2019-08-22 12:37:04
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 
 ## 缓存

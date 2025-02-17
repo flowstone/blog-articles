@@ -2,7 +2,7 @@
 title: "博客快速迁移到Sourceforge平台"
 date: 2024-02-24 19:18:42
 draft: false
-categories: "日志"
+categories: ["日志"]
 ---
 #### 描述
 因为个人原因，准备把托管在阿里云虚拟主机上的博客迁移到免费的sourceforget平台上，

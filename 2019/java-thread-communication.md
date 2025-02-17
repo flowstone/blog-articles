@@ -2,7 +2,7 @@
 title: "Java多线程-线程通信"
 date: 2019-09-03 12:42:43
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 
 ## 通信的方式

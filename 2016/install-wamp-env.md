@@ -2,7 +2,7 @@
 title: "安装WAMP开发环境"
 date: 2016-07-16 21:52:27
 draft: false
-categories: "PHP"
+categories: ["PHP"]
 ---
 
 ### 如何安装WAMP开发环境

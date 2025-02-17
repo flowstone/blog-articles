@@ -2,7 +2,7 @@
 title: "Docker入门-docker compose的使用"
 date: 2019-08-19 12:33:56
 draft: false
-categories: "Docker"
+categories: ["Docker"]
 ---
 ## Compose简介
 

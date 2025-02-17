@@ -2,7 +2,7 @@
 title: "JS小例子之二级联动"
 date: 2017-08-26 11:30:20
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 
 ## 联动原理

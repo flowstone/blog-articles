@@ -2,7 +2,7 @@
 title: "JPA使用-实体类上常用注解"
 date: 2019-12-11 12:45:59
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 
 ## @SQLDelete

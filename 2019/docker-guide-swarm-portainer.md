@@ -2,7 +2,7 @@
 title: "Docker进阶-资源管理Swarm+Portainer"
 date: 2018-09-07 12:13:29
 draft: false
-categories: "Docker"
+categories: ["Docker"]
 ---
 
 ## Docker Swarm资源管理

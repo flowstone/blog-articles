@@ -2,7 +2,7 @@
 title: "Spring Cloud入门教程一之Eureka Server"
 date: 2018-10-13 12:18:13
 draft: false
-categories: "Spring"
+categories: ["Spring"]
 ---
 ### 项目环境
 * MacOS

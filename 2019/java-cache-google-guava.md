@@ -2,7 +2,7 @@
 title: "Java内存缓存-通过Google Guava创建缓存"
 date: 2019-08-23 12:37:51
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 
 ## 谷歌Guava缓存

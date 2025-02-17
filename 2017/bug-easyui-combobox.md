@@ -2,7 +2,7 @@
 title: "EasyUI-表单combobox下拉框回显"
 date: 2017-12-01 12:11:57
 draft: false
-categories: "Bug"
+categories: ["Bug"]
 ---
 
 EasyUI是基于Jquery开发的前端框架，适用于各个网站的后台页面，它提供多种丰富的功能，其中表单就有许多的功能。

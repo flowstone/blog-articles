@@ -2,7 +2,7 @@
 title: "GitHub Pages二级域名的配置"
 date: 2017-02-03 11:26:31
 draft: false
-categories: "GIT"
+categories: ["GIT"]
 ---
 
 ## 域名配置指南

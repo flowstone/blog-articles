@@ -2,7 +2,7 @@
 title: "Java编程思想学习总结一(一切都是对象)"
 date: 2019-02-07 12:24:05
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 # 
 

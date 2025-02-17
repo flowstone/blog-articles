@@ -2,7 +2,7 @@
 title: "Docker进阶-容器监控cAdvisor+InfluxDB+Granfana"
 date: 2018-09-07 12:13:29
 draft: false
-categories: "Docker"
+categories: ["Docker"]
 ---
 
 ## 概述

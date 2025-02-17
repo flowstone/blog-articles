@@ -2,7 +2,7 @@
 title: "MySQL中INNER JOIN详解"
 date: 2019-05-19 12:25:38
 draft: false
-categories: "Mysql"
+categories: ["Mysql"]
 ---
 
 ## 前言

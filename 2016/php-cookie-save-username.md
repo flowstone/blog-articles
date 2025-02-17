@@ -2,7 +2,7 @@
 title: "Cookie实例-保存用户登录时的用户名"
 date: 2016-08-19 22:13:29
 draft: false
-categories: "PHP"
+categories: ["PHP"]
 ---
 
 

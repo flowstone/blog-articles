@@ -2,7 +2,7 @@
 title: "React中useState如何给对象中的某一个属性赋值"
 date: 2021-01-02 13:03:06
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 
 ### 问题描述

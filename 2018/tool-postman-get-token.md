@@ -2,7 +2,7 @@
 title: "Postman之token动态获取"
 date: 2018-11-13 12:20:20
 draft: false
-categories: "Tool"
+categories: ["Tool"]
 ---
 目前项目涉及PC及APP端接口共用问题，后台接口给登陆后的用户设置了一个token，接口调用时请求头的参数值必须要动态生成，为了解决这个问题，查看Postman API文档，配置了可以方便后端开发者的Tests脚本，如果你需要，请按下面方式配置。
 

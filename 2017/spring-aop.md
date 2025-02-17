@@ -2,7 +2,7 @@
 title: "Spring的AOP编程"
 date: 2017-10-16 12:06:56
 draft: false
-categories: "Spring"
+categories: ["Spring"]
 ---
 AOP为Aspect Oriented Programming(面向切面编程)
 

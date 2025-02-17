@@ -2,7 +2,7 @@
 title: "Java多线程-线程状态"
 date: 2019-08-25 12:40:14
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 
 # 线程状态

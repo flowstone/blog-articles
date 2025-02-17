@@ -2,7 +2,7 @@
 title: "Javamail简单使用案例"
 date: 2017-09-13 12:02:47
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 
 ## 邮件开发环境搭建

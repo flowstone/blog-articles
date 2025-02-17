@@ -2,7 +2,7 @@
 title: "Ajax自定义日历"
 date: 2016-09-27 22:19:51
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 
 ## 需求分析

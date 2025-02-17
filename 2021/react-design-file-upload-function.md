@@ -2,7 +2,7 @@
 title: "React中如何实现文件上传功能"
 date: 2021-01-04 13:04:42
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 
 ### 场景描述

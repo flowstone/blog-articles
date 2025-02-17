@@ -2,7 +2,7 @@
 title: "代码优化-多态代替IF条件判断"
 date: 2019-12-01 12:45:00
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 
 

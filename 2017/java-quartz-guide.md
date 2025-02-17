@@ -2,7 +2,7 @@
 title: "Quartz作业调度的入门使用"
 date: 2017-11-14 12:09:41
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 ## 概念
 1.Job

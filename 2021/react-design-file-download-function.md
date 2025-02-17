@@ -2,7 +2,7 @@
 title: "React中如何实现文件下载功能"
 date: 2021-01-05 13:05:30
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 
 ### 场景描述

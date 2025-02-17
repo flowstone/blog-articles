@@ -2,7 +2,7 @@
 title: "Java多线程-线程中止"
 date: 2019-08-26 12:41:06
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
 
 ## 不正确的线程中止-Stop

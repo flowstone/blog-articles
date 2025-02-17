@@ -2,7 +2,7 @@
 title: "PHP实现分页功能"
 date: 2016-07-16 22:01:31
 draft: false
-categories: "PHP"
+categories: ["PHP"]
 ---
 
 #### 如何实现分页功能

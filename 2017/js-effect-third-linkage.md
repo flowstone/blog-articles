@@ -2,7 +2,7 @@
 title: "AJAX省市县三级联动的实现"
 date: 2017-09-14 12:04:08
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 
 省市县数据

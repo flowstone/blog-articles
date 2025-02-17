@@ -2,7 +2,7 @@
 title: "Docker进阶-快速扩容"
 date: 2019-08-21 12:35:15
 draft: false
-categories: "Docker"
+categories: ["Docker"]
 ---
 
 ## 1、命令方式

@@ -2,7 +2,7 @@
 title: "Docker入门-介绍和安装"
 date: 2019-08-14 12:27:50
 draft: false
-categories: "Docker"
+categories: ["Docker"]
 ---
 
 ## Docker容器

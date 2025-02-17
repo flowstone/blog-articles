@@ -2,7 +2,7 @@
 title: "如何使用FTP中的模板文件和EasyPOI来导出Excle?"
 date: 2021-07-25 13:31:32
 draft: false
-categories: "Java"
+categories: ["Java"]
 --- 
 
 ## 问题描述

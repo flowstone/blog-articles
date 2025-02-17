@@ -2,7 +2,7 @@
 title: "Docker入门-构建第一个Java程序"
 date: 2019-08-16 12:29:49
 draft: false
-categories: "Docker"
+categories: ["Docker"]
 ---
 ### Docker入门-构建第一个Java程序
 #### 定制镜像

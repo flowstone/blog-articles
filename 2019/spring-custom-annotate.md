@@ -2,7 +2,7 @@
 title: "Spring自定义注解详解"
 date: 2019-02-13 12:24:52
 draft: false
-categories: "Spring"
+categories: ["Spring"]
 ---
 
 下面是RequestBody注解源码

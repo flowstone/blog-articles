@@ -2,7 +2,7 @@
 title: "Java多线程-程序运行堆栈分析"
 date: 2019-08-25 12:39:19
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
  
 

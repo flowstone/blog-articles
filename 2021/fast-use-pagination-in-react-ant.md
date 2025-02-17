@@ -2,7 +2,7 @@
 title: "React Ant框架中分页的快速使用"
 date: 2021-01-01 13:00:01
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 
 ### 使用环境

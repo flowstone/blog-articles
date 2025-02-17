@@ -2,7 +2,7 @@
 title: "Docker入门-搭建docker私有仓库"
 date: 2019-08-16 12:30:55
 draft: false
-categories: "Docker"
+categories: ["Docker"]
 ---
 
 

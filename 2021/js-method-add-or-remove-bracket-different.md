@@ -2,7 +2,7 @@
 title: "JS中绑定方法加括号和不加括号的区别"
 date: 2021-01-03 13:03:55
 draft: false
-categories: "JS"
+categories: ["JS"]
 ---
 
 ### 问题描述
