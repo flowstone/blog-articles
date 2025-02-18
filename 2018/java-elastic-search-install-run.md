@@ -2,8 +2,9 @@
 title: "ElasticSearch从入门到放弃(一)-安装&运行"
 date: 2018-10-18 12:19:00
 draft: false
-categories: "Java"
+categories: ["Java"]
 ---
+
 这几天看到新闻，说ElasticSearch上市了，真的没有想到这个非常流行的开源项目竟然上市了，这个公司的程序员都走上了财务自由的道路。
 以前用过ElasticSearch全文搜索引擎，但是时间长也忘记了差不多了，以前而且还是用的老版本，不知道新版本如何使用，废话不多说了，开始：
 
