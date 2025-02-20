@@ -3,6 +3,8 @@ title: "PySide6 项目开发全攻略：打造你的文件重命名神器"
 date: 2025-02-08 13:18:42
 draft: false
 categories: ["日志"]
+tags: ["AI", "PySide6"]
+cover: false
 ---
 
 
